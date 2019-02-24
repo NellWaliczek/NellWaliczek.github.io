@@ -1,6 +1,6 @@
 ---
 title:  "Building a loft bed (part 3)"
-date:   2019-02-27 16:24:59 -0800
+date:   2019-02-23 00:00:03 -0800
 description: Building a loft bed (part 3)
 featured_image: '/images/posts/loft-bed/header.jpg'
 ---
@@ -9,7 +9,7 @@ featured_image: '/images/posts/loft-bed/header.jpg'
 
 This is post 2 of 3 covering how I built a loft bed for my daughter.
 
-Picking up where we left off [last time]({{ site.baseurl }}{% post_url 2019-02-25-building-a-loft-bed-part-1 %}), and putting the finishing touches on
+Picking up where we left off [last time]({{ site.baseurl }}{% post_url 2019-02-23-building-a-loft-bed-part-2 %}), and putting the finishing touches on
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title:  "Starting a new adventure (republish)"
-date:   2019-02-24 14:24:59 -0800
+date:   2019-02-23 00:00:00 -0800
 description: Reposting the announcement of my joining Amazon
 featured_image: '/images/posts/joining-amazon.jpg'
 ---

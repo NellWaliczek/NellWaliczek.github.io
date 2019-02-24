@@ -14,8 +14,8 @@ Put something up about the bookshelves
 ## Treehouse Loft Bed
 Three part series about how I built my daughter a treehouse style loft bed in the summer of 2018
 
-[Part 1]({{ site.baseurl }}{% post_url 2019-02-25-building-a-loft-bed-part-1 %}) 
-[Part 2]({{ site.baseurl }}{% post_url 2019-02-26-building-a-loft-bed-part-2 %}) 
-[Part 3]({{ site.baseurl }}{% post_url 2019-02-27-building-a-loft-bed-part-3 %})
+[Part 1]({{ site.baseurl }}{% post_url 2019-02-23-building-a-loft-bed-part-1 %}) 
+[Part 2]({{ site.baseurl }}{% post_url 2019-02-23-building-a-loft-bed-part-2 %}) 
+[Part 3]({{ site.baseurl }}{% post_url 2019-02-23-building-a-loft-bed-part-3 %})
 
 ![](/images/posts/loft-bed/completed.jpg)

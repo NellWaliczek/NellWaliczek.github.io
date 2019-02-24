@@ -1,6 +1,6 @@
 ---
 title:  "Building a loft bed (part 1)"
-date:   2019-02-25 15:24:59 -0800
+date:   2019-02-23 00:00:01 -0800
 description: Building a loft bed (part 1)
 featured_image: '/images/posts/loft-bed/header.jpg'
 ---
