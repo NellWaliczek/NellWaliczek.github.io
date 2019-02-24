@@ -1,12 +1,15 @@
 ---
-layout: post
 title:  "Starting a new adventure (republish)"
 date:   2019-02-24 14:24:59 -0800
-categories: technology
+description: Reposting the announcement of my joining Amazon
+featured_image: '/images/posts/joining-amazon.jpg'
 ---
-> Originally published on Medium on May 31st, 2018.
 
-Today I’m thrilled to announce I have joined AWS as a Principal Engineer on the Amazon Sumerian team! A little context on why I’m so excited about this opportunity...
+*This post was originally published using Medium.com on May 31st, 2018.*
+
+---
+
+Today I’m thrilled to announce I have joined AWS as a Principal Engineer on the [Amazon Sumerian](https://aws.amazon.com/sumerian/) team! A little context on why I’m so excited about this opportunity...
 
 For those who don’t know, the past five years of my career have been spent working on a Virtual Reality and Augmented Reality OS. Two years ago, I realized that as VR/AR hardware reaches wider audiences, people will expect more than installable apps and games. They will expect the Web.
 

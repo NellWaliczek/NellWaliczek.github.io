@@ -1,49 +1,54 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+site: Nell Waliczek
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Nell Waliczek
-tagline: Principal Engineer @ AWS, W3C WebXR Spec Editor, Maker
-email: NellWaliczek@gmail.com
-description:  Principal Engineer @ AWS, W3C WebXR Spec Editor, Maker
-url: "https://nell.dev"
-baseurl: ""
-twitter_username: NellWaliczek
-github_username:  NellWaliczek
-future: false
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
 
-# Build settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
 markdown: kramdown
-#remote_theme: fongandrew/hydeout
-theme: jekyll-theme-hydeout
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
 plugins:
-  - jekyll-feed
   - jekyll-paginate
-  - jekyll-remote-theme
-  - github-pages
+  - jekyll-sitemap
 
-# Theme settins
-paginate: 5
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+paginate: 6
+paginate_path: "/blog/page:num/"
+  
