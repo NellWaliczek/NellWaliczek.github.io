@@ -14,19 +14,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Nell Waliczek
-tagline: Principal Engineer, W3C Spec Editor, Maker
+tagline: Principal Engineer @ AWS, W3C WebXR Spec Editor, Maker
 email: NellWaliczek@gmail.com
-description:  Nell Waliczek is a Principal Engineer with AWS specializing in Virtual Reality and Augmented Reality with <a href="https://aws.amazon.com/sumerian/" target="_blank">Amazon Sumerian</a>.  She is the Spec Editor of the <a href="https://www.w3.org/TR/webxr/" target="_blank">W3C WebXR Device API</a> and Amazon's representative to the <a href="https://www.w3.org" target="_blank">W3C</a>.  Outside of work she likes building stuff with her kids using some of her favorite tools, the table saw and the serger.
+description:  Principal Engineer @ AWS, W3C WebXR Spec Editor, Maker
 url: "https://nell.dev"
 baseurl: ""
 twitter_username: NellWaliczek
 github_username:  NellWaliczek
+future: false
 
 # Build settings
 markdown: kramdown
-theme: minima
+#remote_theme: fongandrew/hydeout
+theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - github-pages
+
+# Theme settins
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
